@@ -1,0 +1,10 @@
+cloud_pct.innerHtml = res.cloud_pct
+feels_like.innerHtml = res.feels_like
+humidity.innerHtml = res.humidity
+max_temp.innerHtml = res.max_temp
+min_temp.innerHtml = res.min_temp
+sunrise.innerHtml = res.sunrise
+sunset.innerHtml = res.sunset
+temp.innerHtml = res.temp
+wind_degrees.innerHtml = res.wind_degrees
+wind_speed.innerHtml = res.wind_speed

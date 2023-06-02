@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Raleway:wght@100;500;600;700;900&family=Tilt+Neon&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif; 
+    overflow: hidden;
+}
+
+body{
+    background-image: url(./sky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+}
+
+.search-bar{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.search-bar  form input{
+    width: 30%;
+    height: 6.5vh;
+    padding-left: 10px; 
+    font-size: 18px;
+    border: none;
+    box-shadow: .5px .5px 10px black;
+    border-radius: 8px;
+}
+
+.temp-div{
+    width: 23%;
+    height: 35%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: .5px .5px 10px black;
+    background-color: transperent;
+    margin-top: 20px;
+    color: white;
+}
+
+.temp-div2{
+    width: 23%;
+    height: 35%;
+    border-radius: 46% 54% 37% 63% / 30% 20% 80% 70%;
+    box-shadow: .5px .5px 10px black;
+    background-color: transperent;
+    margin-top: 20px;
+    color: white;
+}
+
+.temp-div3{
+    width: 23%;
+    height: 35%;
+    border-radius: 57% 43% 38% 62% / 20% 19% 81% 80%;
+    box-shadow: .5px .5px 10px black;
+    background-color: transperent;
+    margin-top: 20px;
+    color: white;
+}
+
+.temp-heading{
+    width: 100%;
+    height: 18%;
+    border-radius: 10px 10px 0px 0px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: transperent;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+#para{
+    color: orangered;
+    font-size: 1.2rem;
+    padding-top: 50px;
+}
+
+#cityName{
+    background: orangered;
+    padding: 10px;
+}
+
+.contain-2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main-icon{
+    width: 25%;
+}
+
+.main-icon img{
+    width: 100%;
+    animation: move linear 2s infinite;
+}
+
+.contain{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-temp{
+    padding-right: 20px;;
+}
+
+.main-temp span{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.temp{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.temp-para{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    font-size: 19px;
+    font-weight: 800;
+    background: orangered;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: .5px .5px 10px black;
+}
+
+.temp-logo{
+    width: 15%;
+    padding-top: 20px;
+}
+
+
+
+@keyframes move{
+    0% { 
+        transform: translateY(0); 
+    }
+    30%{
+        transform: translateY(-10px); 
+    }
+    100% { 
+        transform: translateY(0); 
+    }
+}

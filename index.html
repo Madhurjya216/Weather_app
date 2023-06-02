@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <form>
+                <input type="search" name="" id="city" placeholder="What's your location?"> 
+                <button class="btn" id="submit">Search</button>
+            </form>
+        </div>
+        <div class="contain">
+            <div class="main-temp">
+                <p id="title">Weather in <span id="cityName">_____</span></p>
+                <span id=""></span>
+            </div>
+            <div class="main-icon">
+                <img src="./clouds-and-sun.png" alt="weather logo">
+            </div>
+        </div>
+        <div class="contain-2">
+            <div class="temp-div">
+                <div class="temp-heading"> 
+                    <p id='para'>Temperature</p><img class="temp-logo" src='./temperature.png' alt='temp logo'>
+                </div>
+                <div class="temp-para">
+                    <span id="temperature" class="temp">__</span>
+                    <p>Temperature is <span id="temp">__°C</span>°C</p>
+                    <p>Min Temperature is <span id="min_temp">__</span></p>
+                    <p>Max Temperature is <span id="max_temp">__</span></p>
+                </div>
+            </div>
+
+            <div class="temp-div2">
+                <div class="temp-heading">
+                    <p id='para'>Humidity Info</p><img class="temp-logo" src='./humidity.png' alt='humidity logo'>
+                </div>
+                <div class="temp-para">
+                    <span id="humid" class="temp">__ </span>
+                    <p>Humidity is <span id="humidity">__</span></p>
+                    <p>Sunrise in <span id="sunrise">__</span></p>
+                    <p>Sunset in <span id="sunset">__</span></p>
+                </div>
+            </div>
+
+            <div class="temp-div3">
+                <div class="temp-heading">
+                    <p id='para'>Wind Info</p><img class="temp-logo" src='./storm.png' alt='wind logo'>
+                </div>
+                <div class="temp-para">
+                    <span id="wind_speedd" class="temp">__  </span>
+                    <p>Wind speed is <span id="wind_speed">__</span></p>
+                    <p>Wind Degree is <span id="wind_degrees">__</span></p>
+                    <p>Feels like <span id="feels_like">__</span></p> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
